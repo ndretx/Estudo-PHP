@@ -14,8 +14,7 @@
         <input type="number" name="num2"><br>
         <input type="submit" name="calcule" value="Calcule">
     </form>
-    Resposta :
-    <?php echo $_GET["num1"] + $_GET["num2"] ?>
+    Ô burrão a resposta é  :<?php echo $_GET["num1"] + $_GET["num2"] ?>
 </body>
 
 </html>
