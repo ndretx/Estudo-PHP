@@ -7,7 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    <?php ?>
+    <form action="urlParameters.php" method="post">
+        Name: <input type="text" name="name"> <br>
+        password: <input type="password" name="password"> <br>
+        <input type="submit" value="submit">
+    </form>
+    <br><br>
+
+    <?php
+        echo $_POST ["name"] . "<br>" . $_POST ["password"]  ;
+        
+         
+    ?>
     
 </body>
 </html>
